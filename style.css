@@ -1,0 +1,95 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #0078D7;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Main Content */
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .overview {
+    text-align: center;
+  }
+  
+  .overview h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .status {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #0078D7;
+  }
+  
+  .display {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .display-card {
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .display-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .value {
+    font-size: 2
+  
